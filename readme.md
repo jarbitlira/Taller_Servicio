@@ -1,4 +1,4 @@
-#PRIMEROS PASOS CON LARAVEL
+# PRIMEROS PASOS CON LARAVEL
 
 Requisitos del servidor (Laravel 5.6):
 
@@ -19,14 +19,14 @@ Laravel utiliza Composer para manejas sus dependencias. So, before using Laravel
 
 usando composer instalamos laravel:
 
-##composer global require "laravel/installer"
+## composer global require "laravel/installer"
 
 crear una nueva instalacion
-##laravel new blog
+## laravel new blog
 
 crear una nueva instalacion usando composer
-##composer create-project --prefer-dist laravel/laravel blog
+## composer create-project --prefer-dist laravel/laravel blog
 
 activar el server
-##php artisan serve
+## php artisan serve
 
