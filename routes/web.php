@@ -12,3 +12,8 @@
 */
 
 Route::get('/', 'PruebaController@blade');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

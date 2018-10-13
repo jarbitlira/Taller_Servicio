@@ -168,6 +168,10 @@ return [
          * Package Service Providers...
          */
 
+
+        TCG\Voyager\VoyagerServiceProvider::class,
+        Larapack\VoyagerHooks\VoyagerHooksServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
